@@ -18,26 +18,15 @@ body {
 
 .box {
     position:relative;
-    background-color:lightgray;
-    border-left: 10px dotted lightskyblue;
 }
 
-#bottom-right {
+#main-bottom {
     position:absolute;
-    bottom:0;
     right:0;
+    bottom:0;
+    margin:10px 10px 10px 10px;
 }
 
-.bottom {
-    position:absolute;
-    bottom:0;
-    right:0;
-    background-color:lightgray;
-    border-left: 10px dotted lightskyblue;
-    padding-left:10px;
-    padding-top:10px;
-    margin: 10px 5px 0px 0px;
-    text-transform:uppercase;
-    height:140px;
-    width:90px;
+.main:hover, #main-bottom:hover {
+    background-color:yellow;
 }
