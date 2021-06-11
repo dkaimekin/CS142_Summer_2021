@@ -1,1 +1,1 @@
-"# SC142_Summer_2021" 
+"# Here I learn how to create web applications and websites. This is the Stanford course SC142."
