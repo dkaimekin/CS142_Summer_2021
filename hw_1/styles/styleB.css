@@ -1,0 +1,43 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    background-color:white;
+}
+
+.main {
+    display:inline-block;
+    background-color:lightgray;
+    border-left: 10px dotted lightskyblue;
+    padding-left:10px;
+    padding-top:10px;
+    margin: 10px 5px 0px 0px;
+    text-transform:uppercase;
+    height:140px;
+    width:90px;
+}
+
+.box {
+    position:relative;
+    background-color:lightgray;
+    border-left: 10px dotted lightskyblue;
+}
+
+#bottom-right {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.bottom {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color:lightgray;
+    border-left: 10px dotted lightskyblue;
+    padding-left:10px;
+    padding-top:10px;
+    margin: 10px 5px 0px 0px;
+    text-transform:uppercase;
+    height:140px;
+    width:90px;
+}
